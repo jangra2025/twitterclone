@@ -1,0 +1,27 @@
+body{
+    background-color:#f7f9f9;
+}
+header{
+    z-index:1000px;
+    border: 1px solid #ddd;
+}
+.sidebar{
+    height:100vh;
+}
+.sidebar a{
+    text-align:center;
+    border-radius:30px;
+}
+.sidebar a:hover{
+    background-color:#82cafc;
+    color: #1d9bf0;
+}
+.commentpost, .tweet, .trend-box{
+    background-color:white ;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom:15px;
+}
+.form-control{
+    resize: none;
+}
